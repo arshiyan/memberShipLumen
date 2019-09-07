@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ac9cff5-6bce-46cc-82b4-1c95b558ee45" name="Default Changelist" comment="add packages&#10;rout for hash&#10;add hash function">
+    <list default="true" id="5ac9cff5-6bce-46cc-82b4-1c95b558ee45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/UserTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/random/hash/HashController.php" beforeDir="false" afterPath="$PROJECT_DIR$/packages/random/hash/HashController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="v001" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,6 +139,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -173,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567852342683</updated>
-      <workItem from="1567852344790" duration="5158000" />
+      <workItem from="1567852344790" duration="6178000" />
     </task>
     <task id="LOCAL-00001" summary="add packages&#10;rout for hash">
       <created>1567860069490</created>
@@ -189,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567861286275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add log hash for info in storage/log">
+      <created>1567862143265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567862143265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +218,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add packages&#10;rout for hash" />
     <MESSAGE value="add packages&#10;rout for hash&#10;add hash function" />
-    <option name="LAST_COMMIT_MESSAGE" value="add packages&#10;rout for hash&#10;add hash function" />
+    <MESSAGE value="add log hash for info in storage/log" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log hash for info in storage/log" />
   </component>
 </project>

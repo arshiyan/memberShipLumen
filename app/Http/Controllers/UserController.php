@@ -32,7 +32,7 @@ class UserController extends Controller
      *
      * @return Response
      */
-    public function allUsers()
+    public function getUsers()
     {
          return response()->json(['users' =>  User::all()], 200);
     }
