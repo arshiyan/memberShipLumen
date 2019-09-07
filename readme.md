@@ -19,3 +19,18 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## route
+php artisan route:list
++------+-----------------+------------+-------------------------------------+----------+------------+
+| Verb | Path            | NamedRoute | Controller                          | Action   | Middleware |
++------+-----------------+------------+-------------------------------------+----------+------------+
+| GET  | /hash           |            | App\Http\Controllers\apiController  | get      |            |
+| POST | /api/register   |            | App\Http\Controllers\AuthController | register |            |
+| POST | /api/login      |            | App\Http\Controllers\AuthController | login    |            |
+| GET  | /api/profile    |            | App\Http\Controllers\UserController | profile  |            |
+| GET  | /api/users/{id} |            | App\Http\Controllers\UserController | getUser  |            |
+| GET  | /api/users      |            | App\Http\Controllers\UserController | getUsers |            |
++------+-----------------+------------+-------------------------------------+----------+------------+
+
+## ScreenShot
