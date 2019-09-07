@@ -36,7 +36,14 @@ class AuthController extends Controller
             $user->save();
 
             //return successful response
-            return response()->json(['user' => $user, 'message' => 'CREATED'], 201);
+
+            $credentials = $request->only(['email', 'password']);
+
+            if (! $token = \Auth::attempt($credentials)) {
+                return response()->json(['message' => 'Unauthorized'], 401);
+            }
+
+            return $this->respondWithToken($token);
 
         } catch (\Exception $e) {
             //return error message
