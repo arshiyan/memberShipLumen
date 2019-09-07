@@ -1,0 +1,14 @@
+{
+    "name": "javadarshiyan/hash",
+    "description": "A package for generate hash code",
+    "authors": [
+        {
+            "name": "javadarshiyan",
+            "email": "dr.bloger@gmail.com"
+        }
+    ],
+    "require": {},
+    "psr-4": {
+        "javadarshiyan\\hash\\" : "/"
+    }
+}

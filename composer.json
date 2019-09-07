@@ -21,7 +21,8 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Random\\Hash\\" : "packages/random/hash"
         }
     },
     "autoload-dev": {

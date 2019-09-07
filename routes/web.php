@@ -10,6 +10,11 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
+
+
+$router->get('hash', 'apiController@get');
+
+/*
 $router->group(['prefix' => 'api'], function () use ($router) {
     // Matches "/api/register
    $router->post('register', 'AuthController@register');
@@ -23,3 +28,4 @@ $router->group(['prefix' => 'api'], function () use ($router) {
     // Matches "/api/users
     $router->get('users', 'UserController@allUsers');
 });
+*/
