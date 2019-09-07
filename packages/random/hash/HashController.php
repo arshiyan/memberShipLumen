@@ -3,6 +3,7 @@
 namespace Random\Hash;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Log;
 
 class HashController extends Controller
 {
@@ -17,10 +18,12 @@ class HashController extends Controller
      */
     public static function generateHash()
     {
-        return response()->json([
+        $hashCode =  response()->json([
             'hash' =>HashController::randomstr(),
-
         ]);
+        Log::info($hashCode);
+
+        return $hashCode;
     }
 
     /**
