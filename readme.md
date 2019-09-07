@@ -21,19 +21,8 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## route
-php artisan route:list
-+------+-----------------+------------+-------------------------------------+----------+------------+
-| Verb | Path            | NamedRoute | Controller                          | Action   | Middleware |
-+------+-----------------+------------+-------------------------------------+----------+------------+
-| GET  | /hash           |            | App\Http\Controllers\apiController  | get      |            |
-| POST | /api/register   |            | App\Http\Controllers\AuthController | register |            |
-| POST | /api/login      |            | App\Http\Controllers\AuthController | login    |            |
-| GET  | /api/profile    |            | App\Http\Controllers\UserController | profile  |            |
-| GET  | /api/users/{id} |            | App\Http\Controllers\UserController | getUser  |            |
-| GET  | /api/users      |            | App\Http\Controllers\UserController | getUsers |            |
-+------+-----------------+------------+-------------------------------------+----------+------------+
+<img src="https://github.com/arshiyan/memberShipLumen/blob/master/ScreenShot/Screen%20Shot%202019-09-07%20at%2018.36.14.png" width="90%"></img> 
 
 ## ScreenShot
-<img src="https://cloud.githubusercontent.com/assets/4307137/10105283/251b6868-63ae-11e5-9918-b789d9d682ec.png" width="90%"></img> 
-<img src="https://cloud.githubusercontent.com/assets/4307137/10105290/2a183f3a-63ae-11e5-9380-50d9f6d8afd6.png" width="90%"></img>
-<img src="https://cloud.githubusercontent.com/assets/4307137/10105284/26aa7ad4-63ae-11e5-88b7-bc523a095c9f.png" width="90%"></img> 
+<img src="https://github.com/arshiyan/memberShipLumen/blob/master/ScreenShot/Screen%20Shot%202019-09-07%20at%2018.32.56.png" width="90%"></img> 
+<img src="https://github.com/arshiyan/memberShipLumen/blob/master/ScreenShot/Screen%20Shot%202019-09-07%20at%2018.34.10.png" width="90%"></img>
