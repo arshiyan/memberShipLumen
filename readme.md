@@ -8,19 +8,48 @@
 
 Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-## Official Documentation
+##Features
+- User authentication base on JWT
+- User Profile controllers
+- Use a package for generate hash
+- Test cases class sample for endpoints 
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+##Installation
+To install the Lumen you should take a clone from the repository:
 
-## Security Vulnerabilities
+`git clone https://github.com/arshiyan/memberShipLumen.git`
+Then go to project with cd
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+`cd memberShipLumen `
+Then install packages with composer:
 
-## License
+`composer install`
+##Configuration
+Rename .env.example to .env.
 
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+`cp .env.example .env`
 
-## route
+##Generate secret key
+Generate secret key for JWT and update .env file:
+
+`php artisan jwt:secret
+`
+##Serving Your Application
+To serve your project:
+
+`php -S localhost:8000 -t public
+`
+##Unit Test
+`vendor\bin\phpunit`
+
+##Packages
+[JWT](https://github.com/tymondesigns/jwt-auth "JWT")
+[Lumen Generator](https://github.com/flipboxstudio/lumen-generator "Lumen Generator")
+[Guzzle, PHP HTTP client](https://github.com/guzzle/guzzle "Guzzle, PHP HTTP client")
+[phpunit](https://github.com/sebastianbergmann/phpunit "phpunit")
+
+
+## routes
 <img src="https://github.com/arshiyan/memberShipLumen/blob/master/ScreenShot/Screen%20Shot%202019-09-07%20at%2018.36.14.png" width="90%"></img> 
 
 ## ScreenShot
