@@ -18,9 +18,11 @@ Laravel Lumen is a stunningly fast PHP micro-framework for building web applicat
 To install the Lumen you should take a clone from the repository:
 
 `git clone https://github.com/arshiyan/memberShipLumen.git`
+
 Then go to project with cd
 
 `cd memberShipLumen `
+
 Then install packages with composer:
 
 `composer install`
