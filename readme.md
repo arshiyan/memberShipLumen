@@ -8,13 +8,13 @@
 
 Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
 
-##Features
+## Features
 - User authentication base on JWT
 - User Profile controllers
 - Use a package for generate hash
 - Test cases class sample for endpoints 
 
-##Installation
+## Installation
 To install the Lumen you should take a clone from the repository:
 
 `git clone https://github.com/arshiyan/memberShipLumen.git`
@@ -24,25 +24,31 @@ Then go to project with cd
 Then install packages with composer:
 
 `composer install`
-##Configuration
+
+## Configuration
+
 Rename .env.example to .env.
 
 `cp .env.example .env`
 
-##Generate secret key
+## Generate secret key
+
 Generate secret key for JWT and update .env file:
 
 `php artisan jwt:secret
 `
-##Serving Your Application
+## Serving Your Application
+
 To serve your project:
 
 `php -S localhost:8000 -t public
 `
-##Unit Test
+## Unit Test
+
 `vendor\bin\phpunit`
 
-##Packages
+## Packages
+
 [JWT](https://github.com/tymondesigns/jwt-auth "JWT")
 [Lumen Generator](https://github.com/flipboxstudio/lumen-generator "Lumen Generator")
 [Guzzle, PHP HTTP client](https://github.com/guzzle/guzzle "Guzzle, PHP HTTP client")
@@ -50,8 +56,10 @@ To serve your project:
 
 
 ## routes
+
 <img src="https://github.com/arshiyan/memberShipLumen/blob/master/ScreenShot/Screen%20Shot%202019-09-07%20at%2018.36.14.png" width="90%"></img> 
 
 ## ScreenShot
+
 <img src="https://github.com/arshiyan/memberShipLumen/blob/master/ScreenShot/Screen%20Shot%202019-09-07%20at%2018.32.56.png" width="90%"></img> 
 <img src="https://github.com/arshiyan/memberShipLumen/blob/master/ScreenShot/Screen%20Shot%202019-09-07%20at%2018.34.10.png" width="90%"></img>
