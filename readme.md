@@ -49,10 +49,10 @@ To serve your project:
 
 ## Packages
 
-[JWT](https://github.com/tymondesigns/jwt-auth "JWT")
-[Lumen Generator](https://github.com/flipboxstudio/lumen-generator "Lumen Generator")
-[Guzzle, PHP HTTP client](https://github.com/guzzle/guzzle "Guzzle, PHP HTTP client")
-[phpunit](https://github.com/sebastianbergmann/phpunit "phpunit")
+- [JWT](https://github.com/tymondesigns/jwt-auth "JWT")
+- [Lumen Generator](https://github.com/flipboxstudio/lumen-generator "Lumen Generator")
+- [Guzzle, PHP HTTP client](https://github.com/guzzle/guzzle "Guzzle, PHP HTTP client")
+- [phpunit](https://github.com/sebastianbergmann/phpunit "phpunit")
 
 
 ## routes
